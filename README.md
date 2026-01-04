@@ -23,21 +23,21 @@ Instead of ```((int*)name.vect)[index]=value;```
 Just write  ```place(V_ptr,int,value);```
 ---
 ## 📖 API Reference
-* ```c vector v; // defining a vector (you can use a different name it does not have to  be v)```
+* ```vector v; // defining a vector (you can use a different name it does not have to  be v)```
 
-* ```c vec(type,vect_ptr,capacity); //initializing the vector```  
+* ```vec(type,vect_ptr,capacity); //initializing the vector```  
 type: the data type you will use.  
 vect_ptr: pointer to the vector.  
 capacity: the size of the vector you want to initialize with.
 
 
-* ```c place(v_ptr,type,value); //like v[0]=1;```  
+* ```place(v_ptr,type,value); //like v[0]=1;```  
     * v_ptr: pointer to the vector.  
     * type: the data type you will use.  
     * value: the value you want to place.
 
 
-* ```c vector_pushback(v_ptr , type , value); //pushing back a value```   
+* ```vector_pushback(v_ptr , type , value); //pushing back a value```   
     * v_ptr: pointer to the vector.  
     * type: the data type you will use.  
     * value: the value you want to place. 
@@ -47,7 +47,7 @@ capacity: the size of the vector you want to initialize with.
     * type: the data type you will use.  
     * value: the value you want to place.
 
-* ```c pop(position, v_ptr);```
+* ```pop(position, v_ptr);```
     * position: the place of the element you want to pop.  
     * v_ptr: pointer to the vector.  
 ---
